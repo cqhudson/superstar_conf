@@ -12,3 +12,6 @@
 cp --force bash/bash_aliases ~/.bash_aliases 
 source ~/.bash_aliases
 
+# neovim contains configs related to neovim
+cp --recursive --force -T neovim ~/.config/nvim
+
