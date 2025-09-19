@@ -16,3 +16,6 @@ vim.opt.softtabstop = 4
 -- autoindent is self explanatory
 vim.opt.autoindent = true
 
+-- enable absolute line numbers
+vim.wo.number = true
+
